@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias</title>
+    <script src="noticias.js"></script>
+    <link rel="stylesheet" href="css/noticias.css">
+    <script src="noticia.js"></script>
+</head>
+<body>
+
+    <!-- Logo no topo da página -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/Logo.png" alt="Logo">
+        </div>
+    </header>
+
+    <div class="menu" onclick="toggleMenu()">☰ Menu</div>
+    <div class="submenu" id="submenu">
+        <a href="home.html">Página Inicial</a>
+        <a href="login.html" onclick="closeMenu()">Sair</a>
+    </div>
+
+    <div class="home-container">
+        <h2>Últimas Notícias</h2>
+        
+        <div class="news-item">
+            <img src="images/noticia1.jfif" alt="Imagem da Notícia 1" class="news-image">
+            <h3>Título da Notícia 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat similique expedita nostrum reprehenderit eaque fugit. Tempora quo nobis doloribus molestias?</p>
+            <a href="noticia1.html">Leia mais...</a>
+        </div>
+
+        <div class="news-item">
+            <img src="images/noticia2.jfif" alt="Imagem da Notícia 2" class="news-image">
+            <h3>Título da Notícia 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fuga quae eveniet minima facilis ad repellendus maiores explicabo soluta cumque?</p>
+            <a href="noticia2.html">Leia mais...</a>
+        </div>
+
+        <div class="news-item">
+            <img src="images/noticia3.jfif" alt="Imagem da Notícia 3" class="news-image">
+            <h3>Título da Notícia 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore modi, voluptas necessitatibus consectetur accusamus possimus, animi laudantium veniam ratione ipsam!</p>
+            <a href="noticia3.html">Leia mais...</a>
+        </div>
+    </div>
+
+</body>
+</html>
